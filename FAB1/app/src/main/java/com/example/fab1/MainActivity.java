@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         fab2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showToast("fab1");
+                showToast("fab2");
             }
         });
     }
