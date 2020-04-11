@@ -29,24 +29,24 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_action1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_addButtonColorNormal="@color/white"
             app:fab_addButtonColorPressed="@color/white_pressed"
             app:fab_addButtonSize="mini"
             app:fab_icon="@android:drawable/ic_menu_add"
-            android:id="@+id/fab_action1"
-            app:fab_title="FAB Action 2"/>
+            app:fab_title="FAB Action 2" />
 
         <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_action2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_addButtonColorNormal="@color/white"
             app:fab_addButtonColorPressed="@color/white_pressed"
             app:fab_addButtonSize="mini"
             app:fab_icon="@android:drawable/ic_menu_add"
-            android:id="@+id/fab_action2"
-            app:fab_title="FAB Action 2"/>
+            app:fab_title="FAB Action 2" />
 
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
